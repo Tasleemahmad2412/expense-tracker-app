@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #312c2c;
+}
+
+input {
+  width: 40%;
+  color: black;
+  padding: 5px;
+}
+select {
+  width: 40%;
+  text-align: center;
+  color: black;
+  padding: 5px;
+}
+.negate-colors {
+  filter: invert(1);
+}
